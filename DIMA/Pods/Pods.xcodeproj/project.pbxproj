@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09A237E3249015DA63365CCBD7F1D192 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		24E522B07B7387333D659D128D3FB9DE /* FCAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = A78774067121C788E45E593014E45CCE /* FCAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30290702AAC08BAA1597F913EBC14C2A /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 87D3290CFE4D24810DFE86854F318B95 /* star.png */; };
+		45F0D3B9555B9AEFC92449AE4E64925C /* Pods-BookPi-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C59313A5A1D6652A42F302F7352977E /* Pods-BookPi-dummy.m */; };
+		534564F63E28EC9C3A3D6CC7C00C7974 /* alert-round.png in Resources */ = {isa = PBXBuildFile; fileRef = 683D80354AC37E153D2C543203B8D97D /* alert-round.png */; };
+		610EECB99BEF7A3C39B6567DA3140223 /* FCAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0584189E8B185F847975BE600C00970 /* FCAlertView.m */; };
+		65ECFB58B17DDC6678E0A764C70F5DB6 /* close-round.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB46EE0921048C4484F83BD2CD04777 /* close-round.png */; };
+		9FDEDE315C52B8294CFEC5755B0FDD13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		A3A67131CB195A88CB76F2A891DE9DEC /* FCAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFAF7DFCB8085BDF62F600F76AA08D9 /* FCAlertView-dummy.m */; };
+		C5895F4C94782EE8347F9FC3E5705620 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B59A10B329F2EB116E63BC9A4D2F1DB /* heart.png */; };
+		CDC19C66673569053C6CDA8C5D97AC88 /* checkmark-round.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FE236580CDD955BA8C042BB59FAF157 /* checkmark-round.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1BC2CCF5591DB11C0061B921858FD8CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 895D290DB9C6F06A35408C00CDB1E70C;
+			remoteInfo = FCAlertView;
+		};
+		A75C2BA7FE18F7A31243A5D235E6B4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E415CA92D5EC83116ACA7D2DAE0DF50;
+			remoteInfo = "FCAlertView-FCAlertView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07359B5841581CD0916461F447E8B1B3 /* Pods-BookPi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookPi.debug.xcconfig"; sourceTree = "<group>"; };
+		0FE236580CDD955BA8C042BB59FAF157 /* checkmark-round.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "checkmark-round.png"; path = "FCAlertView/Assets/checkmark-round.png"; sourceTree = "<group>"; };
+		1B59A10B329F2EB116E63BC9A4D2F1DB /* heart.png */ = {isa = PBXFileReference; includeInIndex = 1; name = heart.png; path = FCAlertView/Assets/heart.png; sourceTree = "<group>"; };
+		4718E990E27E37D3CAB834C8EFE6D122 /* Pods-BookPi-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BookPi-frameworks.sh"; sourceTree = "<group>"; };
+		683D80354AC37E153D2C543203B8D97D /* alert-round.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "alert-round.png"; path = "FCAlertView/Assets/alert-round.png"; sourceTree = "<group>"; };
+		72FC2765B4BD9A0F67060D771D0F2AB9 /* FCAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FCAlertView-prefix.pch"; sourceTree = "<group>"; };
+		7C59313A5A1D6652A42F302F7352977E /* Pods-BookPi-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BookPi-dummy.m"; sourceTree = "<group>"; };
+		7D6B9269CFB5F14A6B02DFFBA7FA75D2 /* Pods-BookPi-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BookPi-acknowledgements.plist"; sourceTree = "<group>"; };
+		80095449AEDCBD2E57A3AE3405EDFBD2 /* libFCAlertView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFCAlertView.a; path = libFCAlertView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		82778120BFA31BD6F5CBF3886437331B /* Pods-BookPi-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BookPi-acknowledgements.markdown"; sourceTree = "<group>"; };
+		87D3290CFE4D24810DFE86854F318B95 /* star.png */ = {isa = PBXFileReference; includeInIndex = 1; name = star.png; path = FCAlertView/Assets/star.png; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2CF5B77E2B933032D800C6570968093 /* FCAlertView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FCAlertView.bundle; path = FCAlertView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A78774067121C788E45E593014E45CCE /* FCAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FCAlertView.h; path = FCAlertView/Classes/FCAlertView.h; sourceTree = "<group>"; };
+		B4155835B909855DBA8A02FF4AF8CF5F /* libPods-BookPi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-BookPi.a"; path = "libPods-BookPi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C22C47B61F15AA1413C514A26CE9780E /* Pods-BookPi-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BookPi-resources.sh"; sourceTree = "<group>"; };
+		C32622665C43A6A8F95952F6ED83AD45 /* Pods-BookPi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookPi.release.xcconfig"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DEEBC864CCBFAE598928B6E57374EBF3 /* ResourceBundle-FCAlertView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FCAlertView-Info.plist"; sourceTree = "<group>"; };
+		E0584189E8B185F847975BE600C00970 /* FCAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FCAlertView.m; path = FCAlertView/Classes/FCAlertView.m; sourceTree = "<group>"; };
+		EBFAF7DFCB8085BDF62F600F76AA08D9 /* FCAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FCAlertView-dummy.m"; sourceTree = "<group>"; };
+		EDB46EE0921048C4484F83BD2CD04777 /* close-round.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "close-round.png"; path = "FCAlertView/Assets/close-round.png"; sourceTree = "<group>"; };
+		F216625EA28D5BAE21C3744FADFAD5B8 /* FCAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FCAlertView.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F2FAD59D886A9227152FC02F0701FC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51D14871F49FA2B9191B12E1E302A6F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FDEDE315C52B8294CFEC5755B0FDD13 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA02D324A7E5AF51FD9D396C30B98950 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A237E3249015DA63365CCBD7F1D192 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0224B8FF13DDABDF629175892D6C4AE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C964798E8A22E8E3BC99B21A9F780F8 /* FCAlertView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		25FBE3BC55FADF5E39D8745275F03FEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2CF5B77E2B933032D800C6570968093 /* FCAlertView.bundle */,
+				80095449AEDCBD2E57A3AE3405EDFBD2 /* libFCAlertView.a */,
+				B4155835B909855DBA8A02FF4AF8CF5F /* libPods-BookPi.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3351EEDC2CB017D68A8F8FDD0EBED6F9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				683D80354AC37E153D2C543203B8D97D /* alert-round.png */,
+				0FE236580CDD955BA8C042BB59FAF157 /* checkmark-round.png */,
+				EDB46EE0921048C4484F83BD2CD04777 /* close-round.png */,
+				1B59A10B329F2EB116E63BC9A4D2F1DB /* heart.png */,
+				87D3290CFE4D24810DFE86854F318B95 /* star.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3B034CF9D0036A1F3BD77FA3CFB3D1ED /* Pods-BookPi */ = {
+			isa = PBXGroup;
+			children = (
+				82778120BFA31BD6F5CBF3886437331B /* Pods-BookPi-acknowledgements.markdown */,
+				7D6B9269CFB5F14A6B02DFFBA7FA75D2 /* Pods-BookPi-acknowledgements.plist */,
+				7C59313A5A1D6652A42F302F7352977E /* Pods-BookPi-dummy.m */,
+				4718E990E27E37D3CAB834C8EFE6D122 /* Pods-BookPi-frameworks.sh */,
+				C22C47B61F15AA1413C514A26CE9780E /* Pods-BookPi-resources.sh */,
+				07359B5841581CD0916461F447E8B1B3 /* Pods-BookPi.debug.xcconfig */,
+				C32622665C43A6A8F95952F6ED83AD45 /* Pods-BookPi.release.xcconfig */,
+			);
+			name = "Pods-BookPi";
+			path = "Target Support Files/Pods-BookPi";
+			sourceTree = "<group>";
+		};
+		4669E99973999F66F5A7ADD176A0E0FB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F216625EA28D5BAE21C3744FADFAD5B8 /* FCAlertView.xcconfig */,
+				EBFAF7DFCB8085BDF62F600F76AA08D9 /* FCAlertView-dummy.m */,
+				72FC2765B4BD9A0F67060D771D0F2AB9 /* FCAlertView-prefix.pch */,
+				DEEBC864CCBFAE598928B6E57374EBF3 /* ResourceBundle-FCAlertView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FCAlertView";
+			sourceTree = "<group>";
+		};
+		5C964798E8A22E8E3BC99B21A9F780F8 /* FCAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				A78774067121C788E45E593014E45CCE /* FCAlertView.h */,
+				E0584189E8B185F847975BE600C00970 /* FCAlertView.m */,
+				3351EEDC2CB017D68A8F8FDD0EBED6F9 /* Resources */,
+				4669E99973999F66F5A7ADD176A0E0FB /* Support Files */,
+			);
+			name = FCAlertView;
+			path = FCAlertView;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0224B8FF13DDABDF629175892D6C4AE2 /* Pods */,
+				25FBE3BC55FADF5E39D8745275F03FEB /* Products */,
+				C527D4E222A0F740A5F64228D70C7C49 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C527D4E222A0F740A5F64228D70C7C49 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B034CF9D0036A1F3BD77FA3CFB3D1ED /* Pods-BookPi */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		14F738158A262C66D413D1357730C676 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24E522B07B7387333D659D128D3FB9DE /* FCAlertView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		19CCF3B4FDFB0706BE7AD4A0686FB853 /* Pods-BookPi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD407101418E00154FF160D28713DB2B /* Build configuration list for PBXNativeTarget "Pods-BookPi" */;
+			buildPhases = (
+				A86B6F06AC32E40C6A39ABEF91C1F766 /* Sources */,
+				FA02D324A7E5AF51FD9D396C30B98950 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F82194632B78666EEB068F4CEB1D8CB /* PBXTargetDependency */,
+			);
+			name = "Pods-BookPi";
+			productName = "Pods-BookPi";
+			productReference = B4155835B909855DBA8A02FF4AF8CF5F /* libPods-BookPi.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6E415CA92D5EC83116ACA7D2DAE0DF50 /* FCAlertView-FCAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 423A46CF27DEA756651BA87FECA0E6D5 /* Build configuration list for PBXNativeTarget "FCAlertView-FCAlertView" */;
+			buildPhases = (
+				44F5892B3A4EFB5C955C5A727AB65670 /* Sources */,
+				0F2FAD59D886A9227152FC02F0701FC3 /* Frameworks */,
+				92C24C1709BC8EC199E11ABF9178E39C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FCAlertView-FCAlertView";
+			productName = "FCAlertView-FCAlertView";
+			productReference = A2CF5B77E2B933032D800C6570968093 /* FCAlertView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		895D290DB9C6F06A35408C00CDB1E70C /* FCAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B99D22EA28B9297EA456F0FF683035C /* Build configuration list for PBXNativeTarget "FCAlertView" */;
+			buildPhases = (
+				6216020875082F68DE296F7532288086 /* Sources */,
+				51D14871F49FA2B9191B12E1E302A6F3 /* Frameworks */,
+				14F738158A262C66D413D1357730C676 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				290A5C9FED5A2745A1F7221A547B404B /* PBXTargetDependency */,
+			);
+			name = FCAlertView;
+			productName = FCAlertView;
+			productReference = 80095449AEDCBD2E57A3AE3405EDFBD2 /* libFCAlertView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 25FBE3BC55FADF5E39D8745275F03FEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				895D290DB9C6F06A35408C00CDB1E70C /* FCAlertView */,
+				6E415CA92D5EC83116ACA7D2DAE0DF50 /* FCAlertView-FCAlertView */,
+				19CCF3B4FDFB0706BE7AD4A0686FB853 /* Pods-BookPi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92C24C1709BC8EC199E11ABF9178E39C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				534564F63E28EC9C3A3D6CC7C00C7974 /* alert-round.png in Resources */,
+				CDC19C66673569053C6CDA8C5D97AC88 /* checkmark-round.png in Resources */,
+				65ECFB58B17DDC6678E0A764C70F5DB6 /* close-round.png in Resources */,
+				C5895F4C94782EE8347F9FC3E5705620 /* heart.png in Resources */,
+				30290702AAC08BAA1597F913EBC14C2A /* star.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44F5892B3A4EFB5C955C5A727AB65670 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6216020875082F68DE296F7532288086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3A67131CB195A88CB76F2A891DE9DEC /* FCAlertView-dummy.m in Sources */,
+				610EECB99BEF7A3C39B6567DA3140223 /* FCAlertView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A86B6F06AC32E40C6A39ABEF91C1F766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F0D3B9555B9AEFC92449AE4E64925C /* Pods-BookPi-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		290A5C9FED5A2745A1F7221A547B404B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FCAlertView-FCAlertView";
+			target = 6E415CA92D5EC83116ACA7D2DAE0DF50 /* FCAlertView-FCAlertView */;
+			targetProxy = A75C2BA7FE18F7A31243A5D235E6B4C0 /* PBXContainerItemProxy */;
+		};
+		9F82194632B78666EEB068F4CEB1D8CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FCAlertView;
+			target = 895D290DB9C6F06A35408C00CDB1E70C /* FCAlertView */;
+			targetProxy = 1BC2CCF5591DB11C0061B921858FD8CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		232DD894CC390AB41FCB4F248659D584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F216625EA28D5BAE21C3744FADFAD5B8 /* FCAlertView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FCAlertView/FCAlertView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		45E4BBFC9215937E8A9101F816E6E91F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F216625EA28D5BAE21C3744FADFAD5B8 /* FCAlertView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FCAlertView/FCAlertView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5EC3CDAF2EEFF89089C5992F3C4F3D28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07359B5841581CD0916461F447E8B1B3 /* Pods-BookPi.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		768F1D9906CA4F2E455BB5378EBB19B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C32622665C43A6A8F95952F6ED83AD45 /* Pods-BookPi.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CEFB1503F7D138DA87E9FCA1DEA6B02C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F216625EA28D5BAE21C3744FADFAD5B8 /* FCAlertView.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FCAlertView";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/FCAlertView/ResourceBundle-FCAlertView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = FCAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		D924C641E94437C870E58951D3DFE9A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F216625EA28D5BAE21C3744FADFAD5B8 /* FCAlertView.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FCAlertView";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/FCAlertView/ResourceBundle-FCAlertView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = FCAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		ED4FC68AB2A4E06C718CFF338F6F156B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */,
+				ED4FC68AB2A4E06C718CFF338F6F156B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B99D22EA28B9297EA456F0FF683035C /* Build configuration list for PBXNativeTarget "FCAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				232DD894CC390AB41FCB4F248659D584 /* Debug */,
+				45E4BBFC9215937E8A9101F816E6E91F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		423A46CF27DEA756651BA87FECA0E6D5 /* Build configuration list for PBXNativeTarget "FCAlertView-FCAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFB1503F7D138DA87E9FCA1DEA6B02C /* Debug */,
+				D924C641E94437C870E58951D3DFE9A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD407101418E00154FF160D28713DB2B /* Build configuration list for PBXNativeTarget "Pods-BookPi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EC3CDAF2EEFF89089C5992F3C4F3D28 /* Debug */,
+				768F1D9906CA4F2E455BB5378EBB19B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
