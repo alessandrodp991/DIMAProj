@@ -33,36 +33,24 @@
 
 - (IBAction)BtnLogin:(id)sender {
      [self.view endEditing:YES];
-    FCAlertView *alert = [[FCAlertView alloc] init];
+   
     if(txtPassword.text.length==0&&txtPassword.text.length==0)
     {
-        [alert showAlertInView:self
-                     withTitle:@"Error"
-                  withSubtitle:@"Please Enter UserName and password.. "
-               withCustomImage:nil
-           withDoneButtonTitle:nil
-                    andButtons:nil];
+      //
+        [self alertView:@"Please Enter UserName and password.. "];
     
     }else
     {
         if(txtPassword.text.length==0)
         {
-            [alert showAlertInView:self
-                         withTitle:@"Error"
-                      withSubtitle:@"Please Enter  password.. "
-                   withCustomImage:nil
-               withDoneButtonTitle:nil
-                        andButtons:nil];
+        //:
+            [self alertView:@"Please Enter  password.. "];
         
         }else if(txtUserName.text.length==0)
         {
             
-            [alert showAlertInView:self
-                         withTitle:@"Error"
-                      withSubtitle:@"Please Enter  UserName .. "
-                   withCustomImage:nil
-               withDoneButtonTitle:nil
-                        andButtons:nil];
+         //
+           [self alertView:@"Please Enter  UserName"];
         }else
         {
             HomeViewController *hvc=[self.storyboard instantiateViewControllerWithIdentifier:@"HomeViewController"];
@@ -75,5 +63,16 @@
 }
 - (IBAction)btnBack:(id)sender {
     [self.navigationController popViewControllerAnimated:YES];
+}
+-(void)alertView:(NSString*)Message
+{
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"AlertView" message:Message preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault
+                                                          handler:^(UIAlertAction * action) {
+                                                              [alert dismissViewControllerAnimated:YES completion:nil];
+                                                          }];
+    [alert addAction:defaultAction];
+    [self presentViewController:alert animated:YES completion:nil];
+
 }
 @end

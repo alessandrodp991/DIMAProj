@@ -12,7 +12,6 @@
 #import "HomeViewController.h"
 #import "LoginViewController.h"
 #import "SignUpViewController.h"
-#import "FCAlertView.h"
 #import "InfoViewController.h"
 #import "SelectPitchViewController.h"
 #import "VauneListViewController.h"

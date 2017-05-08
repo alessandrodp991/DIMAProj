@@ -1,5 +1,0 @@
-XSym
-0054
-0b9a99a0725121ea42d8f0b8d554418f
-../../../FCAlertView/FCAlertView/Classes/FCAlertView.h
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
